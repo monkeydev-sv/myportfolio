@@ -83,7 +83,7 @@ margin-top: -18px;
     }
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
     .menu-icon {
       display: block;
       cursor: pointer;
