@@ -32,6 +32,9 @@
     justify-content: space-between;
   }
   .cardBox img {
-    width: 420px;
+    width: 400px;
+  }
+  .box-inside{
+    width: 400px;
   }
 }
