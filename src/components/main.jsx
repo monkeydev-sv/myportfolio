@@ -22,17 +22,17 @@ function Main() {
                 <div className="cardBox">
                   <div className="box-inside">
                     <img src="https://holmdeveloper.se/images/1.png" />
-                    <div>Bondeform</div> 
+                    <div className="bold">Frontend</div> 
                     <div className="inside-box">Using Android Studio with firbase as databases, this app is a project from school. You can download it and make it better if you want.</div> 
                   </div>
                   <div className="box-inside">
                     <img src="https://holmdeveloper.se/images/2.png" />
-                   <div>Bondeform</div> 
+                   <div className="bold">Games</div> 
                    <div className="inside-box">Using Android Studio with firbase as databases, this app is a project from school. You can download it and make it better if you want.</div> 
                   </div>
                   <div className="box-inside">
                     <img src="https://holmdeveloper.se/images/1.png" />
-                    <div>Bondeform</div> 
+                    <div className="bold">Program</div> 
                     <div className="inside-box">Using Android Studio with firbase as databases, this app is a project from school. You can download it and make it better if you want.</div> 
                     <div>eeeeee</div> 
                   </div>    
