@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import icons from '../assets/icons.png'
+import logostor from '../assets/logostor.png'
 import './navbar.css';
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
@@ -14,20 +15,23 @@ const Navbar = () => {
   }
   const hide = () => setShowNavbar(false);
   const show = () => setShowNavbar(true);
+ 
 
   return(
     <nav className="navbar">
     <div className="container">
       <div className="logo">
-      <img  alt ="logo"src={icons} width="48px" height="48px" />
       
-      </div>
-     
+  
+      <img  alt ="logo"src={logostor} width="{spx" height="48px" />
+      
+
+          </div>
       <div className="menu-icon" onClick={handleShowNavbar } onBlur={hide} onFocus={show}>  
       {showNavbar ? (
-    <MdClose style={{ color: "red", width: "40px", height: "40px" }} />
+    <MdClose style={{ color: "red", width: "42px", height: "42px" }} />
   ) : (
-    <FiMenu style={{ color: "black", width: "40px", height: "40px" }} />
+    <FiMenu style={{ color: "black", width: "42px", height: "42px" }} />
   )}
       </div>
       <div className={`nav-elements  ${showNavbar && 'active'}`}>

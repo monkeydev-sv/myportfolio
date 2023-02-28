@@ -8,18 +8,20 @@
   justify-content: space-between;
 }
 .cardBox img {
-  width: 300px;
+  width: 320px;
 }
-.box1 {
+.inside-box{
+  text-align: center;
 }
 .box {
   margin-top: 20px;
+
+}
+.box-inside{
+  width: 320px;
 }
 
-@media (max-width: 768px) {
-}
-
-@media (max-width: 350px) {
+@media (max-width: 600px) {
   .cardBox {
     display: flex;
     flex-direction: column;

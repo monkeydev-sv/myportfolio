@@ -67,9 +67,9 @@ margin-top: -18px;
   }
   
   .nav-elements ul a.active::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
+    content: '↓';
+     position: absolute;
+    bottom: 1px;
     left: 0;
     width: 100%;
     height: 4px;
@@ -122,5 +122,9 @@ margin-top: -18px;
     .nav-elements ul li {
       margin-left: 0px;
       margin-top: 20px;
+    }
+    .nav-elements ul a.active::after {
+      content: '';
+      position: absolute;
     }
   }
