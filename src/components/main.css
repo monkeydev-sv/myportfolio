@@ -5,11 +5,22 @@
 .text{
   font-size: 16px;
   text-align: left;
+  align-items: center;
   background-color: #0B4E79;
   padding: 15px;
   color:azure;
   border-radius: 10px;
-
+  height:200px;
+}
+  .text1{
+    font-size: 16px;
+    text-align: left;
+   
+    background-color: #0a476d;
+    padding: 15px;
+    color:azure;
+    border-radius: 10px;
+    height:200px;
 
 }
 .read{

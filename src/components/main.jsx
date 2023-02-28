@@ -27,7 +27,7 @@ function Main() {
                 </div>
 
                 <div className="column">
-                  <div className="text">
+                  <div className="text1">
                     Do you really want to succeed with your product development?
                     Then you've come to the right place! Our projects are always
                     based on your business and impact goals. When we then apply
