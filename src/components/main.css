@@ -2,5 +2,23 @@
   font-size: 18px;
   font-weight: 800;
 }
+.text{
+  font-size: 16px;
+  text-align: left;
+  background-color: #0B4E79;
+  padding: 15px;
+  color:azure;
+  border-radius: 10px;
 
 
+}
+.read{
+  text-align: right;
+  margin-top: 5px;
+  
+}
+.art{
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
