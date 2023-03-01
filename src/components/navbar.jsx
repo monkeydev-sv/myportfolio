@@ -62,7 +62,7 @@ const Navbar = () => {
         <div class="navbar-end  ">
          
 
-          <a class="navbar-item">Tjänster</a>
+          <a class="navbar-item" href="/service">Tjänster</a>
 
           <a class="navbar-item">Arkivet</a>
 

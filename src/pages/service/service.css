@@ -1,0 +1,39 @@
+.bold{
+  font-size: 18px;
+  font-weight: 800;
+}
+.text{
+  font-size: 16px;
+  text-align: left;
+  align-items: center;
+  background-color: #56afe1;
+  padding: 15px;
+  color:azure;
+  border-radius: 10px;
+ 
+}
+  .text1{
+    font-size: 16px;
+    text-align: left;
+   
+    background-color: #51a7d8;
+    padding: 15px;
+    color:azure;
+    border-radius: 10px;
+   
+
+}
+.read{
+  text-align: right;
+  margin-top: 5px;
+  
+  
+}
+.art{
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+img{
+  border-radius: 5px;
+}
