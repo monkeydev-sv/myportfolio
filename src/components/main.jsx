@@ -1,6 +1,10 @@
 import React from "react";
 import "./main.css";
 import { MdReadMore } from "react-icons/md";
+import { Link } from "react-router-dom";
+import connect from "../assets/images/connect.png";
+import seo from "../assets/images/seo.png";
+import code from "../assets/images/code.png";
 
 function Main() {
   return (
@@ -12,49 +16,62 @@ function Main() {
               <div className="columns">
                 <div className="column">
                   <div className="text">
-                    We are a design-driven IT company that understands the
-                    importance of having a strong digital presence. We have
-                    solutions that not only look good and are easy to use, but
-                    also give you maximum business benefit in your digital
-                    transformation. Become a leader in your industry and
-                    challenge the status quo with our help. Your journey to
-                    success can begin today!
+                    Vi är ett litet företag som ser vikten i att synas på
+                    nätet,vi lever idag en värld där man bör synas och höras,
+                    syns du inte finns du inte. Vikten som företag att synas
+                    digitalt är A och O idag, med våra tjänster så kommer ni
+                    lyckas. Så kolla vad vi kan erbjuda er!
                   </div>
                   <div className="read">
-                    
-                    <button className="button">Our Services</button>
+                    <Link className="button" to="">
+                      Våra tjänster
+                    </Link>
                   </div>
                 </div>
 
                 <div className="column">
                   <div className="text1">
-                    Do you really want to succeed with your product development?
-                    Then you've come to the right place! Our projects are always
-                    based on your business and impact goals. When we then apply
-                    our other areas of expertise such as gamification or service
-                    design, we can develop innovative solutions that meet your
-                    business needs.
+                    Vi hjälper dig med professionella medel att nå dina mål,
+                    vill du synas då är vi rätt webbyrå för er, vi är
+                    specialiserade på att bygga hemsidor med smarta lösningar,
+                    det kvittar om du väljer en färdig plattform eller ni vill
+                    att vi ska bygga en från start, vi löser det!
                   </div>
                   <div className="read">
-                    <button className="button">Book a meeting</button>
+                    <Link
+                      className="button"
+                      to="https://calendly.com/holmdeveloper/30min"
+                    >
+                      Boka ett möte
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="section">
-                <div className="art">Recently published articles</div>
                 <div className="columns">
-                  <div className="column">
-                    <img src="https://holmdeveloper.se/images/1.png" />
-                    <div className="bold">Web</div>
-                  </div>
+                  <div className="columns">
+                    <div className="column">
+                      <img src={connect} />
+                      <div>Kontakat oss gärna för en offert</div>
+                      <div className="read">
+                        <Link
+                          className="button"
+                          to=""
+                        >
+                          Begär en offert
+                        </Link>
+                      </div>
+                    </div>
 
-                  <div className="column">
-                    <img src="https://holmdeveloper.se/images/2.png" />
-                    <div className="bold">Program</div>
-                  </div>
-                  <div className="column">
-                    <img src="https://holmdeveloper.se/images/7.png" />
-                    <div className="bold">Games</div>
+                    <div className="column">
+                      <img src={seo} />
+                      <div>Vi hjälper dig att SEO anpassa din sida</div>
+                      <div className="read">
+                        <Link className="button" to="">
+                          Vad är SEO
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

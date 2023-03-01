@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isActive, setisActive] = React.useState(false);
   return (
     <nav class="navbar" role="navigation" aria-label="main navigation">
-      <img src={logostor} height="48px" width="239px" />
+      <img src={logostor} height="48px" width="250px" />
 
       <a
         onClick={() => {
@@ -60,15 +60,15 @@ const Navbar = () => {
       >
         
         <div class="navbar-end  ">
-          <a class="navbar-item">Home</a>
+         
 
-          <a class="navbar-item">Stack</a>
+          <a class="navbar-item">Tjänster</a>
 
-          <a class="navbar-item">Archives</a>
+          <a class="navbar-item">Arkivet</a>
 
-          <a class="navbar-item">Education</a>
-          <a class="navbar-item">Download</a>
-          <a class="navbar-item">About</a>
+          <a class="navbar-item">Kunskap</a>
+          
+          <a class="navbar-item">Om Oss</a>
         </div>
         </div>
      
