@@ -5,7 +5,9 @@ const Navbar = () => {
   const [isActive, setisActive] = React.useState(false);
   return (
     <nav class="navbar" role="navigation" aria-label="main navigation">
-      <a href="/"><img src={logostor} height="48px" width="250px" /></a>
+      <a href="/">
+        <img src={logostor} height="48px" width="250px" />
+      </a>
 
       <a
         onClick={() => {
@@ -58,20 +60,16 @@ const Navbar = () => {
         class="navbar-menu"
         className={`navbar-menu ${isActive ? "is-active" : ""}`}
       >
-        
         <div class="navbar-end  ">
-         
+          <Link class="navbar-item" to="/service">
+            Tjänster
+          </Link>
 
-          <Link class="navbar-item" to="/service">Tjänster</Link>
+          <a class="navbar-item">Kundcase</a>
 
-          <a class="navbar-item">Arkivet</a>
-
-          <a class="navbar-item">Kunskap</a>
-          
           <a class="navbar-item">Om Oss</a>
         </div>
-        </div>
-     
+      </div>
     </nav>
   );
 };
