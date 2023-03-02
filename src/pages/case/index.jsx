@@ -25,7 +25,7 @@ function Case() {
               <div className="text1">
                 <div className="read">
                   <Link className="button" to="https://blogg.annelieeng.se">
-                    https://blogg.annelieeng.se
+                    blogg.annelieeng.se
                   </Link>
                 </div>
               </div>
@@ -51,7 +51,7 @@ function Case() {
               <div className="text1">
                 <div className="read">
                   <Link className="button" to="https://bondeform.se">
-                    https://bondeform.se
+                    bondeform.se
                   </Link>
                 </div>
               </div>
