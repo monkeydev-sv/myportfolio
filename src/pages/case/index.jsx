@@ -18,7 +18,7 @@ function Case() {
               <br />
               <br />
               Uppdraget här var att göra den mobilbar, samt göra den SEO
-              anpassad. Här ingår det även fortdlöpande uppdateringar.
+              anpassad. Här ingår det även fortlöpande uppdateringar.
               <br/>
             </div>
             <div className="cont">
