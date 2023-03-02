@@ -18,7 +18,7 @@ function Service() {
           <li>Upp till 5 sidor</li>
           <li>Gratis uppdateringar 1 månad efter lansering</li>
           <li>Fri support</li>
-          Tid för att bli klar 2 v till 3 v
+          <strong>Tid för att bli klar 2 v till 3 v</strong>
         </div>
         <div className="cont">
           <div className="text1">
@@ -42,7 +42,7 @@ function Service() {
           <li>Upp till 10 sidor</li>
           <li>Gratis uppdateringar 1 månad efter lansering</li>
           <li>Fri support</li>
-          Tid för att bli klar 3 v till 4 v
+          <strong>Tid för att bli klar 3 v till 4 v</strong>
         </div>
         <div className="cont">
           <div className="text1">
@@ -66,7 +66,7 @@ function Service() {
           <li>Upp till 20 sidor </li>
           <li>Gratis uppdateringar 1 månad efter lansering</li>
           <li>Fri support</li>
-         Tid för att bli klar 4 v till 6 v
+         <strong>Tid för att bli klar 4 v till 6 v</strong>
         </div>
         <div className="cont">
           <div className="text1">
@@ -76,6 +76,7 @@ function Service() {
               <Link className="button" to="/service">
               Beställ
               </Link>
+      
             </div>
           </div>
         </div>
