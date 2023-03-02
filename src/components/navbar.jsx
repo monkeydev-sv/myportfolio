@@ -1,6 +1,6 @@
 import React from "react";
 import logostor from "../assets/logostor.png";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isActive, setisActive] = React.useState(false);
   return (
@@ -62,7 +62,7 @@ const Navbar = () => {
         <div class="navbar-end  ">
          
 
-          <a class="navbar-item" href="/service">Tjänster</a>
+          <Link class="navbar-item" to="/service">Tjänster</Link>
 
           <a class="navbar-item">Arkivet</a>
 
