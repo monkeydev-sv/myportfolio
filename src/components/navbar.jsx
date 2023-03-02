@@ -65,7 +65,7 @@ const Navbar = () => {
             Tjänster
           </Link>
 
-          <a class="navbar-item">Kundcase</a>
+          <Link class="navbar-item" to="/case">Kundcase</Link>
 
           <a class="navbar-item">Om Oss</a>
         </div>

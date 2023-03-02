@@ -18,14 +18,19 @@ function Service() {
           <li>Upp till 5 sidor</li>
           <li>Gratis uppdateringar 1 månad efter lansering</li>
           <li>Fri support</li>
-          <strong>Tid för att bli klar 2 v till 3 v</strong>
+          <strong>Tid för att bli klar 2 till 3 v</strong><br/>
+          <div className="read">
+          <Link className="button" to="/case">
+                Kundcase
+              </Link>
+        </div>
         </div>
         <div className="cont">
           <div className="text1">
           Pris 5000 kr exl moms
             <div className="read">
               
-              <Link className="button" to="/wordpress">
+              <Link className="button" to="/small">
                 Beställ
               </Link>
             </div>
@@ -42,13 +47,18 @@ function Service() {
           <li>Upp till 10 sidor</li>
           <li>Gratis uppdateringar 1 månad efter lansering</li>
           <li>Fri support</li>
-          <strong>Tid för att bli klar 3 v till 4 v</strong>
+          <strong>Tid för att bli klar 3 till 4 v</strong><br/>
+          <div className="read">
+          <Link className="button" to="/case">
+                Kundcase
+              </Link>
+        </div>
         </div>
         <div className="cont">
           <div className="text1">
            pris 10000 kr ex moms
             <div className="read">
-              <Link className="button" to="/service">
+              <Link className="button" to="/medium">
                 Beställ
               </Link>
             </div>
@@ -66,7 +76,12 @@ function Service() {
           <li>Upp till 20 sidor </li>
           <li>Gratis uppdateringar 1 månad efter lansering</li>
           <li>Fri support</li>
-         <strong>Tid för att bli klar 4 v till 6 v</strong>
+         <strong>Tid för att bli klar 4 till 6 v</strong><br/>
+         <div className="read">
+         <Link className="button" to="/large">
+                Kundcase
+              </Link>
+              </div>
         </div>
         <div className="cont">
           <div className="text1">
