@@ -1,96 +1,93 @@
 import React from "react";
 import "./service.css";
-import code from "../../assets/images/code.png";
-import {
-  DiAngularSimple,
-  DiCss3,
-  DiDatabase,
-  DiDocker,
-  DiHtml5,
-  DiJava,
-  DiJavascript,
-  DiJavascript1,
-  DiMongodb,
-  DiMysql,
-  DiNodejsSmall,
-  DiPhp,
-  DiWordpress,
-} from "react-icons/di";
 import { Link } from "react-router-dom";
+
 
 function Service() {
   return (
-    <div>
-      <div>
-        <div>
-          <div>
-            <div className="section">
-              <div className="columns">
-                <div className="column">
-                  <div className="text">
-                    Jag vet att en goda relationer är en vikigt grunden för ett
-                    hållbart samarbeten.Jag vet även att om vi ska uppnå goda
-                    relationer krävs det ett angemang från båda parter. Jag
-                    kommer alldrig att påstå att jag är bästa på det jag gör,
-                    men jag kommer alltid att strävar efter att bli bättre.För mig
-                    handlar det om att utveckla snygga och funktionella
-                    webblösningar efter era behov.
-                  </div>
-                </div>
-
-                <div className="column">
-                  <div className="text1">
-                    <h1 className="title">
-                      Jag utvecklar efter ert behov.
-                    </h1>
-                    <div className="text">
-                      När ni väljer mig så kan ni räkna med en god relation,en
-                      engagerad utvecklar som alltid sträva efter den bästa lösningen för
-                      er som företag!
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="section">
-                
-                  <div className="columns">
-                    <div className="column">
-                      <div className="text1">
-                        <div className="text">
-                          {" "}
-                          <DiAngularSimple size={52} /> <DiJava size={52} />
-                          <DiJavascript1 size={52} />
-                          <DiHtml5 size={52} />
-                        </div>
-                        <div>
-                          {" "}
-                          <DiCss3 size={52} />
-                          <DiWordpress size={52} />
-                          <DiPhp size={52} />
-                          <DiDatabase size={52} />
-                        </div>
-
-                        <div className="text">
-                          {" "}
-                        <DiMongodb size={52} />
-                        <DiMysql size={52} />
-                        <DiDocker size={52} />
-                        <DiNodejsSmall size={52} />
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="column">
-                    <img src={code} alt="code"/>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
+ <>
+    <div className="cont">
+    <div class="columns">
+      <div class="column is-on-third">
+      <div className="text1">
+          <h2 class="title">Enkel</h2>
+          Vi skapar en enkel sida med valfritt ramverk som du väljer!
+          <li>Wordpress React.js, Node.js</li>
+          <li>Mobilanpassad</li>
+          <li>SEO optimerad</li>
+          <li>Upp till 5 sidor</li>
+          <li>Gratis uppdateringar 1 månad efter lansering</li>
+          <li>Fri support</li>
+          Tid för att bli klar 2 v till 3 v
+        </div>
+        <div className="cont">
+          <div className="text1">
+          Pris 5000 kr exl moms
+            <div className="read">
+              
+              <Link className="button" to="/wordpress">
+                Beställ
+              </Link>
             </div>
           </div>
         </div>
+        </div>
+      <div className="column">
+      <div className="text1">
+          <h2 class="title">Medium</h2>
+          Vi skapar en mer avancerad sida med valfritt ramverk som du väljer!
+          <li>Wordpress React.js, Node.js</li>
+          <li>Mobilanpassad</li>
+          <li>SEO optimerad</li>
+          <li>Upp till 10 sidor</li>
+          <li>Gratis uppdateringar 1 månad efter lansering</li>
+          <li>Fri support</li>
+          Tid för att bli klar 3 v till 4 v
+        </div>
+        <div className="cont">
+          <div className="text1">
+           pris 10000 kr ex moms
+            <div className="read">
+              <Link className="button" to="/service">
+                Beställ
+              </Link>
+            </div>
+          </div>
+        </div>
+    
       </div>
+      <div className="column">
+      <div className="text1">
+          <h2 class="title">Large</h2>
+          Vi skapar en fullskalig sida med valfritt ramverk som du väljer!
+          <li>Wordpress React.js, Node.js</li>
+          <li>E-handel eller blogg, ditt val</li>
+          <li>SEO optimerad</li>
+          <li>Upp till 20 sidor </li>
+          <li>Gratis uppdateringar 1 månad efter lansering</li>
+          <li>Fri support</li>
+         Tid för att bli klar 4 v till 6 v
+        </div>
+        <div className="cont">
+          <div className="text1">
+            17000 kr ex moms
+              <div className="read">
+             
+              <Link className="button" to="/service">
+              Beställ
+              </Link>
+            </div>
+          </div>
+        </div>
+      
+       </div>
+    </div>
+  </div>
+</>
+
+         
+        
+     
    
   );
 }

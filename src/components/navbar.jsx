@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isActive, setisActive] = React.useState(false);
   return (
     <nav class="navbar" role="navigation" aria-label="main navigation">
-      <img src={logostor} height="48px" width="250px" />
+      <a href="/"><img src={logostor} height="48px" width="250px" /></a>
 
       <a
         onClick={() => {

@@ -6,23 +6,25 @@
   font-size: 16px;
   text-align: left;
   align-items: center;
-  background-color: #56afe1;
+  
   padding: 15px;
-  color:azure;
+  color:black;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  
 }
   .text1{
     font-size: 16px;
     text-align: left;
-   
-    background-color: #51a7d8;
+    
     padding: 15px;
-    color:azure;
+    color:Black;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
    
+  }
 
-}
+
 .read{
   text-align: right;
   margin-top: 5px;
@@ -36,4 +38,7 @@
 }
 img{
   border-radius: 5px;
+}
+.cont{
+margin-top: 20px;
 }
