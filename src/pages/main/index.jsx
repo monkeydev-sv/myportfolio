@@ -13,9 +13,11 @@ function Main() {
               <h2 class="title">Syns du inte , Finns du inte!</h2>
               Holm Developer är ett företag som ser vikten att du som företag
               syns på nätet! Med många års erfarenhet av att utveckla sidor så
-              ser vi nu att det blir vikigare att synas och höras på nätet, vi ser även att det sker trender i webbutveckling.<br/><br/> Holm
-              Developer gör det enkelt för dig som företag , vi sköter allt
-              från förhandsarbet till slutproduktion.   
+              ser Holm Developer nu att det blir vikigare att synas och höras på
+              nätet.
+              <br />
+              <br /> Holm Developer gör det enkelt för dig som företag , vi
+              sköter allt från förhandsarbete till slutproduktion.
             </div>
             <div className="cont">
               <div className="text1">
