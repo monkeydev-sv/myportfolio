@@ -20,12 +20,12 @@ function Main() {
               sköter allt från förhandsarbete till slutproduktion.
               <div className="navbar">
                 <div className="navbar-start">
-                  <Link className="button" to="/kontakta">
+                  <Link className="navbar-item" to="/kontakta">
                     Kontaka oss
                   </Link>
                 </div>
                 <div className="navbar-end">
-                  <Link className="button" to="/service">
+                  <Link className="navbar-item" to="/service">
                     Våra tjänster
                   </Link>
                 </div>

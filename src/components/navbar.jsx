@@ -62,21 +62,21 @@ const Navbar = () => {
         className={`navbar-menu ${isActive ? "is-active" : ""}`}
       >
         <div className="margin">
-        <div class="navbar-start">
-        
-          <Link class="navbar-item" to="/service">
-            Tjänster
-          </Link>
+          <div class="navbar-start">
+            <Link class="nav" to="/service">
+              Tjänster
+            </Link>
 
-          <Link class="navbar-item" to="/case">Kundcase</Link>
+            <Link class="nav" to="/case">
+              Kundcase
+            </Link>
 
-          <a class="navbar-item">Om Oss</a>
-      
+            <Link class="nav" to="/about">Om oss</Link>
+          </div>
         </div>
+        <div class="navbar-end">
+          <a class="nav_portal">Kundportal</a>
         </div>
-        <div class="navbar-end  "> 
-        <a class="navbar-item">Kundportal</a>
-       </div>
       </div>
     </nav>
   );
