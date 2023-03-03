@@ -55,7 +55,12 @@ class Case extends React.Component {
                 </section>
               </div>
             </div>
-            <img src={annelieng} onClick={this.handleClick} />
+            <img src={annelieng} />
+            <div className="cont">
+                    <div className="read">
+                    <Link className="button"  onClick={this.handleClick}>Information</Link>
+            </div>
+            </div>
           </div>
           <div className="column">
           <div className={`modal ${active1}`}>
@@ -89,7 +94,12 @@ class Case extends React.Component {
                 </section>
               </div>
             </div>
-            <img src={bondeform} onClick={this.bondeklick}/>
+            <img src={bondeform} />
+            <div className="cont">
+                    <div className="read">
+                    <Link className="button" onClick={this.bondeklick}>Information</Link>
+            </div>
+            </div>
           </div>
         </div>
         
