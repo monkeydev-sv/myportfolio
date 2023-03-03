@@ -1,6 +1,7 @@
 import React from "react";
 import logostor from "../assets/logostor.png";
 import { Link } from "react-router-dom";
+import "./navbar.css";
 const Navbar = () => {
   const [isActive, setisActive] = React.useState(false);
   return (
@@ -60,7 +61,9 @@ const Navbar = () => {
         class="navbar-menu"
         className={`navbar-menu ${isActive ? "is-active" : ""}`}
       >
-        <div class="navbar-end  ">
+        <div className="margin">
+        <div class="navbar-start">
+        
           <Link class="navbar-item" to="/service">
             Tjänster
           </Link>
@@ -68,7 +71,12 @@ const Navbar = () => {
           <Link class="navbar-item" to="/case">Kundcase</Link>
 
           <a class="navbar-item">Om Oss</a>
+      
         </div>
+        </div>
+        <div class="navbar-end  "> 
+        <a class="navbar-item">Kundportal</a>
+       </div>
       </div>
     </nav>
   );

@@ -1,6 +1,6 @@
 import React from "react";
-
-import { FiInstagram } from "react-icons/fi";
+import "./footer.css";
+import { FiInstagram, FiGithub,FiFacebook } from "react-icons/fi";
 const Footer = () => {
   return (
     <div>
@@ -9,10 +9,19 @@ const Footer = () => {
       <br />
       Holm Developer © 2023. Alla rättigheter förbehållna.
       <br />
+      
       <a href="https://www.instagram.com/holmdev/">
-        <FiInstagram size={32} />
+        <FiInstagram size={32} className="social"/>
       </a>
-    </div>
+      
+      <a href="https://www.instagram.com/holmdev/">
+        <FiGithub size={32} className="social"/>
+        </a>
+        <a href="https://www.instagram.com/holmdev/">
+        <FiFacebook size={32} className="social"/>
+     </a>
+     </div>
+
   );
 };
 export default Footer;

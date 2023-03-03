@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
 
-<div className='container-m'>
+<div className='.container.is-fullhd'>
    
 <Router>
 <Navbar />

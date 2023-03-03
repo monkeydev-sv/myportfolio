@@ -57,13 +57,15 @@ class Case extends React.Component {
             </div>
             <img src={annelieng} />
             <div className="cont">
-                    <div className="read">
-                    <Link className="button"  onClick={this.handleClick}>Information</Link>
-            </div>
+              <div className="read">
+                <Link className="button" onClick={this.handleClick}>
+                  Information
+                </Link>
+              </div>
             </div>
           </div>
           <div className="column">
-          <div className={`modal ${active1}`}>
+            <div className={`modal ${active1}`}>
               <div class="modal-background"></div>
               <div class="modal-card">
                 <header class="modal-card-head">
@@ -76,19 +78,20 @@ class Case extends React.Component {
                 </header>
                 <section class="modal-card-body">
                   <h2 class="title">Bondeform</h2>
-              Bondeform- mellan hjärta och hand, Ett lokalt företag som
-              tillverkar unika former i lera till försäljning. Hennes produkter
-              finnas för tillfället i två konsthantverksbutiker i Skåne.
-              <br />
-              <br />
-              Uppdraget här var att göra den mobilbar,bygga en webbutik samt
-              göra den SEO anpassad. Nu är bara fas 1 klar, själva webbbutiken
-              är ej klar just nu.
+                  Bondeform- mellan hjärta och hand, Ett lokalt företag som
+                  tillverkar unika former i lera till försäljning. Hennes
+                  produkter finnas för tillfället i två konsthantverksbutiker i
+                  Skåne.
+                  <br />
+                  <br />
+                  Uppdraget här var att göra den mobilbar,bygga en webbutik samt
+                  göra den SEO anpassad. Nu är bara fas 1 klar, själva
+                  webbbutiken är ej klar just nu.
                   <div className="cont">
                     <div className="read">
-                    <Link className="button" to="https://bondeform.se">
-                    bondeform.se
-                  </Link>
+                      <Link className="button" to="https://bondeform.se">
+                        bondeform.se
+                      </Link>
                     </div>
                   </div>
                 </section>
@@ -96,15 +99,15 @@ class Case extends React.Component {
             </div>
             <img src={bondeform} />
             <div className="cont">
-                    <div className="read">
-                    <Link className="button" onClick={this.bondeklick}>Information</Link>
-            </div>
+              <div className="read">
+                <Link className="button" onClick={this.bondeklick}>
+                  Information
+                </Link>
+              </div>
             </div>
           </div>
         </div>
-        
-        </div>
-     
+      </div>
     );
   }
 }

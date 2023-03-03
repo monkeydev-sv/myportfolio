@@ -18,10 +18,13 @@ function Main() {
               <br />
               <br /> Holm Developer gör det enkelt för dig som företag , vi
               sköter allt från förhandsarbete till slutproduktion.
-            </div>
-            <div className="cont">
-              <div className="text1">
-                <div className="read">
+              <div className="navbar">
+                <div className="navbar-start">
+                  <Link className="button" to="/kontakta">
+                    Kontaka oss
+                  </Link>
+                </div>
+                <div className="navbar-end">
                   <Link className="button" to="/service">
                     Våra tjänster
                   </Link>
@@ -29,6 +32,7 @@ function Main() {
               </div>
             </div>
           </div>
+
           <div className="column">
             <img src={code} />
           </div>
