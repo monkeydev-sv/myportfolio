@@ -30,7 +30,7 @@ function Service() {
                 <div className="cont">
                   Pris 5000 kr exl moms
                   <div className="read">
-                    <Link to="/small">Beställ</Link>
+                    
                   </div>
                 </div>
               </div>
@@ -44,8 +44,7 @@ function Service() {
               väljer!
               <li>Wordpress React.js, Node.js</li>
               <li>Mobilanpassad</li>
-              <li>Företagsida</li>
-              <li>SEO optimerad</li>
+               <li>SEO optimerad</li>
               <li>Upp till 10 sidor</li>
               <li>Gratis uppdateringar 1 månad efter lansering</li>
               <li>Fri support</li>
@@ -59,7 +58,7 @@ function Service() {
                 <div className="cont">
                   Pris 10000 kr ex moms
                   <div className="read">
-                    <Link to="/medium">Beställ</Link>
+                   
                   </div>
                 </div>
               </div>
@@ -86,7 +85,7 @@ function Service() {
                 <div className="cont">
                   Pris 15000 kr ex moms
                   <div className="read">
-                    <Link to="/service">Beställ</Link>
+                    
                   </div>
                 </div>
               </div>
