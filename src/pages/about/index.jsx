@@ -15,25 +15,18 @@ function About() {
           </div>
 
           <div className="column">
-          <div className="text1">
-            <h2 class="title">Christer Holm</h2>
-            Software Developer
-            <br />
-            Året 1993 började jag programmera i Basic på en Comandore64. Gjorde
-            klon av Nibbles och idag äter och andas jag kod. 2022 blev jag klar
-            som junior java utvecklare .Innan jag började läsa denna
-            yrkesutbildningen så arbetade jag främst med Wordpress och
-            WooCommerce, där det mesta skrevs i PHP. Vill utvecklas och började
-            då läsa till Java utvecklare och fann mitt kall kan man säga. Alla
-            bitar föll på plats och jag kände mig hemma, det var ju det här jag
-            skulle syssla med. Vissa saker blev med en gång väldigt självklara
-            för mig och jag började redan tidigt i utbildningen utveckla mina
-            egna appar och program.
-             
-            <br/>
-            Kontakta: christer@holmdeveloper.se 
-            <br/>0736550614
-
+            <div className="text1">
+              <h2 class="title">Om Holm Developer</h2>
+              
+              Holm Developer är ett företag med servicitag inom webbutvecklare.
+              Företaget har många år inom utveckling och service, där dina idéer
+              och intresse blir till verklighet. <br /> <br />Holm Developer har EC Utbildning
+              med inriktning javautveckling, som kan arbetar både nationellt och
+              internationellt.
+              <br /> <br />
+              Kontakta:info@holmdeveloper.se
+              <br /> 
+              Tele: 0736550614
             </div>
           </div>
         </div>

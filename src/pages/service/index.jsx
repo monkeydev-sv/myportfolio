@@ -1,7 +1,9 @@
 import React from "react";
 import "./service.css";
 import { Link } from "react-router-dom";
-
+import planing from "../../assets/images/planing.png";
+import planing1 from "../../assets/images/planing1.png";
+import planing2 from "../../assets/images/planing2.png";
 function Service() {
   return (
     <>
@@ -9,6 +11,7 @@ function Service() {
         <div class="columns">
           <div class="column is-on-third">
             <div className="text1">
+            <img src={planing}></img>
               <h2 class="title">Enkel</h2>
               Vi skapar en enkel sida med valfritt ramverk som du väljer!
               <li>Wordpress React.js, Node.js</li>
@@ -34,7 +37,8 @@ function Service() {
           </div>
           <div className="column">
             <div className="text1">
-              <h2 class="title">Medium</h2>
+            <img src={planing1}></img>
+              <h2 class="title">Medel</h2>
               Vi skapar en mer avancerad sida med valfritt ramverk som du
               väljer!
               <li>Wordpress React.js, Node.js</li>
@@ -60,7 +64,8 @@ function Service() {
           </div>
           <div className="column">
             <div className="text1">
-              <h2 class="title">Large</h2>
+            <img src={planing2}></img>
+              <h2 class="title">Stor</h2>
               Vi skapar en fullskalig sida med valfritt ramverk som du väljer!
               <li>Wordpress React.js, Node.js</li>
               <li>E-handel eller blogg, ditt val</li>

@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <a href="/">
-        <img src={logostor} height="48px" width="250px" />
+        <img src={logostor} height="4px" />
       </a>
 
       <a
@@ -60,24 +60,36 @@ const Navbar = () => {
         id="navbarBar"
         class="navbar-menu"
         className={`navbar-menu ${isActive ? "is-active" : ""}`}
-      >
+       >
         <div className="margin">
           <div class="navbar-start">
-            <Link class="nav" to="/service">
-              Tjänster
-            </Link>
+            <div className="navbar-item">
+              <Link class="nav" to="/service">
+                Tjänster
+              </Link>
+            </div>
 
-            <Link class="nav" to="/case">
-              Kundcase
-            </Link>
+            <div className="navbar-item">
+              <Link class="nav" to="/case">
+                Kundcase
+              </Link>
+            </div>
 
-            <Link class="nav" to="/about">Om oss</Link>
+            <div className="navbar-item">
+              <Link class="nav" to="/about">
+                Om oss
+              </Link>
+            </div>
+          </div>
+          </div>
+
+          <div class="navbar-end">
+            <div className="navbar-item">
+              <a class="nav_portal">Kundportal</a>
+            </div>
           </div>
         </div>
-        <div class="navbar-end">
-          <a class="nav_portal">Kundportal</a>
-        </div>
-      </div>
+      
     </nav>
   );
 };
