@@ -61,7 +61,7 @@ const Navbar = () => {
         class="navbar-menu"
         className={`navbar-menu ${isActive ? "is-active" : ""}`}
        >
-        <div className="margin">
+       
           <div class="navbar-start">
             <div className="navbar-item">
               <Link class="nav" to="/service">
@@ -81,7 +81,7 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-          </div>
+      
 
           <div class="navbar-end">
             <div className="navbar-item">
