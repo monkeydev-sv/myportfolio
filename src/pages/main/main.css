@@ -20,12 +20,14 @@
   margin-top: 5px;
 }
 .kontakt{
+  margin-top: 10px;
     text-align: left;
     font-size: 18px;
     font-weight: 700;
     color: black;
 }
     .service{
+      margin-top: 10px;
       text-align: right;
       font-size: 18px;
       font-weight: 700;
@@ -61,6 +63,7 @@ margin-top: 20px;
 }
 @media only screen and (min-width: 360px) {
  .kontakt{
+  margin-top: 10px;
   color: #000;
   text-align: center;
   font-size: 22px;
@@ -73,6 +76,7 @@ margin-top: 20px;
     color:#56aee0;
    }
    .service{
+    margin-top: 10px;
     text-align: right;
     font-size: 22px;
     font-weight: 700;
