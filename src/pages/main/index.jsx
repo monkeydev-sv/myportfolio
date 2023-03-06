@@ -11,19 +11,7 @@ function Main() {
           <div class="column is-half">
           
             <img src={code} />
-              
-              <div className="navbar">
-                <div className="navbar-start">
-                  <Link className="navbar-item" to="/kontakta">
-                    Kontaka oss
-                  </Link>
-                </div>
-                <div className="navbar-end">
-                  <Link className="navbar-item" to="/service">
-                    Våra tjänster
-                  </Link>
-                </div>
-              </div>
+            
             </div>
          
 
@@ -38,6 +26,22 @@ function Main() {
               <br /> Holm Developer gör det enkelt för dig som företag , vi
               sköter allt från förhandsarbete till slutproduktion.
           </div>
+          <div className="navbar">
+                <div className="navbar-start">
+                  <div className="navbar-item">
+                  <Link className="kontakt" to="/">
+                    Kontakta oss
+                  </Link>
+                </div>
+                </div>
+                <div className="navbar-end">
+                <div className="navbar-item">
+                  <Link className="service" to="/service">
+                    Våra tjänster
+                  </Link>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
       </div>

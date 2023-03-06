@@ -1,5 +1,5 @@
 import React from "react";
-import "./case.css";
+  import "./case.css";
 import annelieng from "../../assets/images/bloggannlie.png";
 import bondeform from "../../assets/images/bondeform.png";
 import { Link } from "react-router-dom";

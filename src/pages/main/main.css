@@ -18,9 +18,35 @@
 .read{
   text-align: right;
   margin-top: 5px;
-  
-  
 }
+.kontakt{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+    .service{
+      text-align: right;
+      font-size: 18px;
+      font-weight: 700;
+      color: black
+    }
+    .service:hover{
+      text-align: center;
+      font-size: 18px;
+      font-weight: 800;
+      color:#56aee0;
+     
+
+   }
+   .kontakt:hover{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    color:#56aee0;
+   }
+  
+
 .art{
   text-align: left;
   font-size: 24px;
@@ -33,3 +59,31 @@ img{
 .cont{
 margin-top: 20px;
 }
+@media only screen and (min-width: 360px) {
+ .kontakt{
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+ }
+  .kontakt:hover{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    color:#56aee0;
+   }
+   .service{
+    text-align: right;
+    font-size: 22px;
+    font-weight: 700;
+    color: black
+   }
+    .service:hover{
+      text-align: center;
+      font-size: 22px;
+      font-weight: 800;
+      color:#56aee0;
+      font-style: oblique;
+     
+   }
+ }

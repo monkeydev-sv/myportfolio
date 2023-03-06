@@ -1,6 +1,8 @@
 import React from "react";
 import "./footer.css";
 import { FiInstagram, FiGithub, FiFacebook } from "react-icons/fi";
+import { RxDiscordLogo } from "react-icons/rx";
+
 const Footer = () => {
   return (
     <div>
@@ -12,6 +14,9 @@ const Footer = () => {
       </a>
       <a href="https://github.com/holmdevelopers">
         <FiGithub size={32} className="social" />
+      </a>
+      <a href="https://github.com/holmdevelopers">
+        <RxDiscordLogo size={32} className="social" />
       </a>
       <a href="https://www.facebook.com/holmdeveloper/">
         <FiFacebook size={32} className="social" />
