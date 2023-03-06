@@ -12,10 +12,10 @@ import './App.css';
 function App() {
   return (
 
-<div className='.container.is-fullhd'>
-   
+<div className='container'>
+
 <Router>
-<Notification/>
+<Notification/>   
 <Navbar />
    <Routes>
    <Route path="/" element={<Main />} />
