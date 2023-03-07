@@ -7,6 +7,7 @@ import About from './pages/about/index';
 import Case from './pages/case/index';
 import Footer from './components/footer';
 import Notification from './components/notification';
+import ContactForm from './components/contactForm';
 import './App.css';
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
    <Route path="/service" element={<Service />} />
    <Route path="/case" element={<Case />} />
    <Route path="/about" element={<About />} />
+   <Route path="/contact" element={<ContactForm/>}/>
+
    </Routes>
 <Footer/>
    </Router>

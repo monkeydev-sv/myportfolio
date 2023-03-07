@@ -3,7 +3,6 @@ import React from "react";
 import annelieng from "../../assets/images/bloggannlie.png";
 import bondeform from "../../assets/images/bondeform.png";
 import { Link } from "react-router-dom";
-import ReactDOM from "react-dom";
 
 class Case extends React.Component {
   state = {
