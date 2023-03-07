@@ -10,7 +10,13 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+.textCookie{
+margin-top:10px;
+text-align: left;
+}
+.cookie{
+  text-align:center;
+  }
 a {
   font-weight: 500;
   color: #56aee0;

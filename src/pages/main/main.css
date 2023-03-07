@@ -61,29 +61,28 @@ img{
 .cont{
 margin-top: 20px;
 }
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 600px) {
  .kontakt{
-  
   color: #000;
-  text-align: center;
+  
   font-size: 22px;
   font-weight: 700;
  }
   .kontakt:hover{
-    text-align: center;
+ 
     font-size: 22px;
     font-weight: 800;
     color:#56aee0;
    }
    .service{
     
-    text-align: right;
+    
     font-size: 22px;
     font-weight: 700;
     color: black
    }
     .service:hover{
-      text-align: center;
+      
       font-size: 22px;
       font-weight: 800;
       color:#56aee0;
