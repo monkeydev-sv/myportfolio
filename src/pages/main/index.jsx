@@ -1,6 +1,7 @@
 import React, { useState} from "react";
 import "./main.css";
 import code from "../../assets/images/code.png";
+import idee from "../../assets/images/idee.png";
 import { Link } from "react-router-dom";
 import ContactForm from "../../components/contactForm";
 
@@ -45,8 +46,21 @@ function Main() {
                     Våra tjänster
                   </Link>
                   </div>
+                 
           </div>
           
+                </div>
+                <div className="columns">
+                <div className="column">
+                <img src={idee} alt="idee"/>
+                </div>
+                <div className="column">
+                <div>Har du en idé som du vill förverkliga?
+                <Link onClick={() => setOpenModal(true)}>
+                    Kontakta oss</Link>, så åter kommer vi till er!
+                  
+                </div>
+                </div>
                 </div>
               </div>
         </div>
