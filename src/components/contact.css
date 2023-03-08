@@ -65,3 +65,26 @@ margin-top: 20px;
 }
 
 
+
+
+
+@media screen and (max-width: 400px) {
+  .modalContainer {
+    flex-direction: column;
+    top: 20%;
+    left: 0;
+    transform:none;
+    width: 100%;
+    height: 100vh;
+  }
+  .closeBtn {
+    position: fixed;
+    color: black;
+    font-size: 22px;
+    font-weight: 800;
+    top: 20%;
+    right: 8px;
+    
+  }
+}
+
