@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useState} from "react";
 import "./main.css";
 import code from "../../assets/images/code.png";
 import { Link } from "react-router-dom";
+import ContactForm from "../../components/contactForm";
 
 function Main() {
+  const [openModal, setOpenModal] = useState(false);
+  
   return (
     <>
+
+    
       <div className="cont">
         <div class="columns">
           <div class="column is-half">
@@ -28,7 +33,8 @@ function Main() {
               <div className="navbar">
                 <div className="navbar-start">
                   <div className="navbar-item">
-                  <Link className="kontakt" to="/">
+                  <ContactForm open={openModal} onClose={() => setOpenModal(false)} />
+                  <Link className="kontakt" onClick={() => setOpenModal(true)}>
                     Kontakta oss
                   </Link>
                 </div>
