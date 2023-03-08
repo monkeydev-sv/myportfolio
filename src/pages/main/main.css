@@ -27,7 +27,6 @@
     color: black;
 }
     .service{
-      
       text-align: right;
       font-size: 18px;
       font-weight: 700;
@@ -61,32 +60,4 @@ img{
 .cont{
 margin-top: 20px;
 }
-@media only screen and (max-width: 600px) {
- .kontakt{
-  color: #000;
-  
-  font-size: 22px;
-  font-weight: 700;
- }
-  .kontakt:hover{
- 
-    font-size: 22px;
-    font-weight: 800;
-    color:#56aee0;
-   }
-   .service{
-    
-    
-    font-size: 22px;
-    font-weight: 700;
-    color: black
-   }
-    .service:hover{
-      
-      font-size: 22px;
-      font-weight: 800;
-      color:#56aee0;
-      
-     
-   }
- }
+
