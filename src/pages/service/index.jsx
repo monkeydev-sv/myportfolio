@@ -84,15 +84,16 @@ function Service() {
               <li>Passa bra för E-handel eller blogg</li>
               
               <strong>Tilläggstjänster</strong>
+              <strong>Tid för att bli klar 5 till 6 v</strong>
               <li>Domän</li>
               <li>Webbhotell</li>
               <br />
               <div className="read">
-                <Link className="button" to="/large">
+                <Link className="button" to="/case">
                   Kundcase
                 </Link>
                 <div className="cont">
-                  Pris 15000 kr ex moms
+                  Pris 15000 kr ex moms 
                   <div className="read">
                     
                   </div>
