@@ -21,6 +21,9 @@ function Service() {
               <li>Gratis uppdateringar 1 månad efter lansering</li>
               <li>Fri support</li>
               <li>Passa bra för småföretag</li>
+              <strong>Tilläggstjänster</strong>
+              <li>Domän</li>
+              <li>Webbhotell</li>
               <strong>Tid för att bli klar 2 till 3 v</strong>
               <br />
               <div className="read">
@@ -48,7 +51,10 @@ function Service() {
               <li>Upp till 10 sidor</li>
               <li>Gratis uppdateringar 1 månad efter lansering</li>
               <li>Fri support</li>
-              <li>Passa bra för medelföretag</li>       
+              <li>Passa bra för medelföretag</li> 
+              <strong>Tilläggstjänster</strong>
+              <li>Domän</li>
+              <li>Webbhotell</li>
               <strong>Tid för att bli klar 3 till 4 v</strong>
               <br />
               <div className="read">
@@ -76,7 +82,10 @@ function Service() {
               <li>Gratis uppdateringar 1 månad efter lansering</li>
               <li>Fri support</li>
               <li>Passa bra för E-handel eller blogg</li>
-              <strong>Tid för att bli klar 4 till 6 v</strong>
+              
+              <strong>Tilläggstjänster</strong>
+              <li>Domän</li>
+              <li>Webbhotell</li>
               <br />
               <div className="read">
                 <Link className="button" to="/large">
@@ -89,8 +98,11 @@ function Service() {
                   </div>
                 </div>
               </div>
+            
             </div>
+           
           </div>
+    
         </div>
       </div>
     </>
