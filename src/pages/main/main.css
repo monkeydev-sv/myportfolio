@@ -26,8 +26,8 @@
     font-weight: 700;
     color: black;
 }
-    .service{
-        text-align: right;
+ .service{
+      text-align: right;
       font-size: 18px;
       font-weight: 700;
       color: black
@@ -60,11 +60,13 @@ img{
 .cont{
 margin-top: 20px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
  .kontakt{
+  text-align:start;
   color: #000;
   font-size: 22px;
   font-weight: 700;
+  
  }
   .kontakt:hover{
     font-size: 22px;

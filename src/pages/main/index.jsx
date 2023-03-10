@@ -34,19 +34,23 @@ function Main() {
               <div className="navbar">
                 <div className="navbar-start">
                   <div className="navbar-item">
-                  <ContactForm open={openModal} onClose={() => setOpenModal(false)} />
+                  <div className="button is-fullwidth">
                   <Link className="kontakt" onClick={() => setOpenModal(true)}>
                     Kontakta oss
                   </Link>
+                  </div>
                 </div>
                 </div>
+                
                 <div className="navbar-end">
                 <div className="navbar-item">
+                 <div className="button is-fullwidth">
                   <Link className="service" to="/service">
                     Våra tjänster
                   </Link>
                   </div>
-                 
+                  </div>
+                  <ContactForm open={openModal} onClose={() => setOpenModal(false)} /> 
           </div>
           
                 </div>
@@ -55,7 +59,7 @@ function Main() {
                 <img src={idee} alt="idee"/>
                 </div>
                 <div className="column">
-                <div>Har du en idé som du vill förverkliga?
+                <div>Har du en idé som du vill förverkliga?<br/>
                 <Link onClick={() => setOpenModal(true)}>
                     Kontakta oss</Link>, så åter kommer vi till er!
                   

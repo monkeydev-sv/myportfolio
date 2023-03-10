@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import email from ".././assets/images/email.png";
+import { CgCloseO } from 'react-icons/cg';
 import "./contact.css";
 const Result = () => {
   return <div className="text1">Ditt meddelande har skickats!</div>;
@@ -35,22 +35,22 @@ const contactForm = ({ open, onClose }) => {
   return (
    
       <div className="modalContainer">
-       <div className="text1">
+       <div className="box">
         <form ref={form} onSubmit={sendMyEmail}>
           <div>
             <label className="label">Namn</label>
-            <input className="input" type="text" name="user_name" />
+            <input className="input" type="text" name="user_name" placeholder="Ditt namn"/>
           </div>
 
           <div>
             {" "}
             <label className="label">E-mail:</label>
-            <input className="input" type="email" name="user_email" />
+            <input className="input" type="email" name="user_email" placeholder="Din e-mail" />
           </div>
           <div>
             {" "}
             <label className="label">Meddelande</label>
-            <textarea className="textarea" name="message" />
+            <textarea className="textarea" name="message" placeholder="Beskriv ditt ärende..."/>
           </div>
           <div className="button_text">
             <input className="button" type="submit" value="Skicka" />
@@ -59,7 +59,7 @@ const contactForm = ({ open, onClose }) => {
           
           <div className="modalRight">
             <p className="closeBtn" onClick={onClose}>
-              X
+             <CgCloseO/> 
             </p>
           </div>
         </form>

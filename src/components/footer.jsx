@@ -15,7 +15,7 @@ const Footer = () => {
       <a href="https://github.com/holmdevelopers">
         <FiGithub size={32} className="social" />
       </a>
-      <a href="https://github.com/holmdevelopers">
+      <a href="https://discord.gg/7Cntwgvu">
         <RxDiscordLogo size={32} className="social" />
       </a>
       <a href="https://www.facebook.com/holmdeveloper/">
