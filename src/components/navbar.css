@@ -17,3 +17,65 @@
     color:#56aee0;
     
 }
+@keyframes barbeat {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.25);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .bar {
+    color: black;
+   
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+  }
+  .bar:hover {
+    animation: barbeat 1s infinite;
+    fill: #56aee0;
+    color: #000000;
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  @keyframes close {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.25);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .close {
+    color: black;
+   
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+  }
+  .close:hover {
+    animation: barbeat 1s infinite;
+    fill: #56aee0;
+    color: #000000;
+    opacity: 1;
+    transition: opacity 500ms;
+  }
