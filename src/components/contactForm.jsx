@@ -35,8 +35,8 @@ const contactForm = ({ open, onClose }) => {
   return (
    
       <div className="modalContainer">
-       <div className="box">
-        <form ref={form} onSubmit={sendMyEmail}>
+      
+        <form ref={form} onSubmit={sendMyEmail} className="box">
           <div>
             <label className="label">Namn</label>
             <input className="input" type="text" name="user_name" placeholder="Ditt namn"/>
@@ -64,7 +64,7 @@ const contactForm = ({ open, onClose }) => {
           </div>
         </form>
       </div>
-      </div>
+      
    
   );
 };

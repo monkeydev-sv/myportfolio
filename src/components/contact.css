@@ -35,7 +35,6 @@ img {
 .modalContainer {
   background-color: white;
   max-width: 500px;
- 
   position: fixed;
   object-fit: cover;
   top: 50%;
@@ -55,7 +54,7 @@ img {
   color: black;
   font-size: 22px;
   font-weight: 800;
-  top:0px;
+  top: 8px;
   right: 8px;
 }
 
