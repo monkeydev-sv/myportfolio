@@ -20,7 +20,7 @@ function Service() {
               <li>Upp till 5 sidor</li>
               <li>Gratis uppdateringar 1 månad efter lansering</li>
               <li>Fri support</li>
-              <li>Passa bra för småföretag</li>
+              <li>Passa bra för mindre företag</li>
               <strong>Tilläggstjänster</strong>
               <li>Domän</li>
               <li>Webbhotell</li>
@@ -79,10 +79,11 @@ function Service() {
               <li>Fri support</li>
               <li>Passa bra för E-handel eller blogg</li>
               <strong>Tilläggstjänster</strong>
-              <strong>Tid för att bli klar 5 till 6 v</strong>
+              
               <li>Domän</li>
               <li>Webbhotell</li>
-              <br />
+              <strong>Tid för att bli klar 5 till 6 v</strong>
+              <br />  
               <div className="read">
                 <Link className="button" to="/case">
                   Kundcase

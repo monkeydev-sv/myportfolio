@@ -39,13 +39,13 @@ const contactForm = ({ open, onClose }) => {
         <form ref={form} onSubmit={sendMyEmail} className="box">
           <div>
             <label className="label">Namn</label>
-            <input className="input" type="text" name="user_name" placeholder="Ditt namn"/>
+            <input className="input" type="text" name="name" placeholder="Ditt namn"/>
           </div>
 
           <div>
             {" "}
             <label className="label">E-mail:</label>
-            <input className="input" type="email" name="user_email" placeholder="Din e-mail" />
+            <input className="input" type="email" name="email" placeholder="Din e-mail" />
           </div>
           <div>
             {" "}
