@@ -3,7 +3,7 @@ import "./main.css";
 import code from "../../assets/images/code.png";
 import idee from "../../assets/images/idee.png";
 import { Link } from "react-router-dom";
-import ContactForm from "../../components/contactForm";
+import ContactForm from "../../components/modal/contactModal/contactForm";
 
 function Main() {
   const [openModal, setOpenModal] = useState(false);

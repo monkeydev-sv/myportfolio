@@ -21,6 +21,7 @@
 img {
   border-radius: 5px;
 }
+
 .cont {
   margin-top: 20px;
 }
@@ -35,6 +36,8 @@ img {
 .modalContainer {
   background-color: white;
   max-width: 500px;
+  width: 400px;
+  height: 500px;
   position: fixed;
   object-fit: cover;
   top: 50%;
