@@ -37,6 +37,7 @@ const Navbar = () => {
       <a href="/">
         <img src={logostor} />
       </a>
+     
       <div
         id="navbarBar"
         class="navbar-menu"
@@ -62,7 +63,7 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-      
+        
 
           <div class="navbar-end">
             <div className="navbar-item">
@@ -70,6 +71,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+     
       
     </nav>
   );
