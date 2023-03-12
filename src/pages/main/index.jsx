@@ -4,7 +4,9 @@ import code from "../../assets/images/code.png";
 import idee from "../../assets/images/idee.png";
 import { Link } from "react-router-dom";
 import ContactForm from "../../components/modal/contactModal/contactForm";
-
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-TQ0TV5PWQB";
+ReactGA.initialize(TRACKING_ID);
 function Main() {
   const [openModal, setOpenModal] = useState(false);
   

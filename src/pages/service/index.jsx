@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import planing from "../../assets/images/planing.png";
 import planing1 from "../../assets/images/planing1.png";
 import planing2 from "../../assets/images/planing2.png";
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-TQ0TV5PWQB";
+ReactGA.initialize(TRACKING_ID);
 function Service() {
   return (
     <>

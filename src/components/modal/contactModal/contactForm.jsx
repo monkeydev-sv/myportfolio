@@ -65,8 +65,7 @@ const contactForm = ({ open, onClose }) => {
              className="textarea"
             name="message"
             size={200}
-            height="300"
-            
+           
             placeholder="Beskriv ditt ärende..."
           />
         </div>

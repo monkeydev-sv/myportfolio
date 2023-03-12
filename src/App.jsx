@@ -7,11 +7,20 @@ import About from './pages/about/index';
 import Case from './pages/case/index';
 import Footer from './components/footer';
 import Notification from './components/notification';
-
+import { useEffect } from 'react';
 import './App.css';
-
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-TQ0TV5PWQB";
+ReactGA.initialize(TRACKING_ID);
+ 
 function App() {
-  return (
+   useEffect(() => {
+      ReactGA.pageview(window.location.pathname + window.location.search);
+    }, []);
+
+
+   return (
+
 
 <div className='container'>
 
