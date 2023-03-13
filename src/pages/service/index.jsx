@@ -21,6 +21,7 @@ function Service() {
               <li>Wordpress, React.js, Node.js</li>
               <li>Mobilanpassad</li>
               <li>SEO optimerad</li>
+              <li>Google Analytics</li>
               <li>Upp till 5 sidor</li>
               <li>Gratis uppdateringar 1 månad efter lansering</li>
               <li>Fri support</li>
@@ -50,6 +51,7 @@ function Service() {
               <li>Wordpress, React.js, Node.js</li>
               <li>Mobilanpassad</li>
               <li>SEO optimerad</li>
+              <li>Google Analytics</li>
               <li>Upp till 10 sidor</li>
               <li>Gratis uppdateringar 1 månad efter lansering</li>
               <li>Fri support</li>
@@ -78,6 +80,7 @@ function Service() {
               <li>Wordpress, React.js, Node.js</li>
               <li>Mobilanpassad</li>
               <li>SEO optimerad</li>
+              <li>Google Analytics</li>
               <li>Upp till 20 sidor </li>
               <li>Gratis uppdateringar 1 månad efter lansering</li>
               <li>Fri support</li>
