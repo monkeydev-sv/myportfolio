@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { CgCloseO } from "react-icons/cg";
 import { RiMailSendLine } from "react-icons/ri";
+
 import "./contact.css";
 const Result = () => {
   

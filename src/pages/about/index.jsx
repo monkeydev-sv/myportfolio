@@ -19,7 +19,7 @@ function About() {
               
               Holm Developer är ett företag med servicetag inom webbutvecklare.
               Företaget har många år inom utveckling och service, där dina idéer
-              och intresse blir till verklighet. <br /> <br />Holm Developer har EC Utbildning
+              och intresse blir till verklighet. <br /> <br />Holm Developer har en EC Utbildning
               med inriktning javautveckling, som kan arbetar både nationellt och
               internationellt.
               <br /> <br />
