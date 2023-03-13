@@ -57,20 +57,9 @@ function Main() {
           </div>
           
                 </div>
-                <div className="columns">
-                <div className="column">
-                <img src={idee} alt="idee"/>
-                </div>
-                <div className="column">
-                <div>Har du en idé som du vill förverkliga?<br/>
-                <Link onClick={() => setOpenModal(true)}>
-                    Kontakta oss</Link>, så åter kommer vi till er!
-                  
-                </div>
-                </div>
-                </div>
+                
               </div>
-        </div>
+        </div> 
       </div>
       </div>
     </>

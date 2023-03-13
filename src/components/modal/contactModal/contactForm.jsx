@@ -1,13 +1,16 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { CgCloseO } from "react-icons/cg";
+import { RiMailSendLine } from "react-icons/ri";
 import "./contact.css";
 import ReactGA from 'react-ga';
 
 ReactGA.pageview(window.location.pathname);
 const Result = () => {
   
-  return <div className="text1">Ditt meddelande har skickats!</div>;
+  return <div className="text">
+    <RiMailSendLine  size={42}/><br/>
+    Ditt meddelande har skickats!</div>;
 };
 
 const contactForm = ({ open, onClose }) => {
