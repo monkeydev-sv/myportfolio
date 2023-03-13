@@ -2,7 +2,11 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { CgCloseO } from "react-icons/cg";
 import "./contact.css";
+import ReactGA from 'react-ga';
+
+ReactGA.pageview(window.location.pathname);
 const Result = () => {
+  
   return <div className="text1">Ditt meddelande har skickats!</div>;
 };
 

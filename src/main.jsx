@@ -2,12 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
-  import "bulma/css/bulma.css";
+import "bulma/css/bulma.css";
 import { BiCookie } from "react-icons/bi";
 
 import CookieConsent, { Cookies } from "react-cookie-consent";
+
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+
+<React.StrictMode>
+
     <CookieConsent
       location="bottom"
       buttonText="Okej!"

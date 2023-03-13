@@ -1,10 +1,9 @@
 import React from "react";
 import "./about.css";
 import me from "../../assets/images/me.png";
-import { Link } from "react-router-dom";
 import ReactGA from 'react-ga';
-const TRACKING_ID = "G-TQ0TV5PWQB";
-ReactGA.initialize(TRACKING_ID);
+
+ReactGA.pageview(window.location.pathname);
 function About() {
   return (
     <>

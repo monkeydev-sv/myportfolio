@@ -3,7 +3,8 @@ import React from "react";
 import annelieng from "../../assets/images/bloggannlie.png";
 import bondeform from "../../assets/images/bondeform.png";
 import { Link } from "react-router-dom";
-
+import ReactGA from 'react-ga';
+ReactGA.pageview(window.location.pathname);
 class Case extends React.Component {
   state = {
     isModal: false,
@@ -22,6 +23,7 @@ class Case extends React.Component {
     const active = this.state.isModal ? "is-active" : "";
     const active1 = this.state.isModalB ? "is-active" : "";
     return (
+     
       <div className="cont">
         <div class="columns">
           <div class="column is-half">
