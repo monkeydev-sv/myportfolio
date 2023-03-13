@@ -4,9 +4,7 @@ import code from "../../assets/images/code.png";
 
 import { Link } from "react-router-dom";
 import ContactForm from "../../components/modal/contactModal/contactForm";
-import ReactGA from 'react-ga4';
 
-ReactGA.pageview(window.location.pathname);
 
 function Main() {
   const [openModal, setOpenModal] = useState(false);

@@ -3,9 +3,6 @@ import emailjs from "@emailjs/browser";
 import { CgCloseO } from "react-icons/cg";
 import { RiMailSendLine } from "react-icons/ri";
 import "./contact.css";
-import ReactGA from 'react-ga4';
-
-ReactGA.pageview(window.location.pathname);
 const Result = () => {
   
   return <div className="text">

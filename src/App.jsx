@@ -7,10 +7,9 @@ import About from './pages/about/index';
 import Case from './pages/case/index';
 import Footer from './components/footer';
 import Notification from './components/notification';
-import ReactGA from 'react-ga4';
+
 import './App.css';
 
-ReactGA.initialize("G-TQ0TV5PWQB");
 
 function App() {
 

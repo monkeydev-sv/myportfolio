@@ -1,9 +1,7 @@
 import React from "react";
 import "./about.css";
 import me from "../../assets/images/me.png";
-import ReactGA from 'react-ga4';
 
-ReactGA.pageview(window.location.pathname);
 function About() {
   return (
     <>
