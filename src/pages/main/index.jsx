@@ -1,7 +1,7 @@
 import React, { useState} from "react";
 import "./main.css";
 import code from "../../assets/images/code.png";
-import idee from "../../assets/images/idee.png";
+
 import { Link } from "react-router-dom";
 import ContactForm from "../../components/modal/contactModal/contactForm";
 import ReactGA from 'react-ga';

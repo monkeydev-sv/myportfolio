@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import me from "../../assets/images/me.png";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 ReactGA.pageview(window.location.pathname);
 function About() {
@@ -19,7 +19,7 @@ function About() {
             <div className="text1">
               <h2 class="title">Om Holm Developer</h2>
               
-              Holm Developer är ett företag med servicitag inom webbutvecklare.
+              Holm Developer är ett företag med servicetag inom webbutvecklare.
               Företaget har många år inom utveckling och service, där dina idéer
               och intresse blir till verklighet. <br /> <br />Holm Developer har EC Utbildning
               med inriktning javautveckling, som kan arbetar både nationellt och
