@@ -5,7 +5,6 @@ import code from "../../assets/images/code.png";
 import { Link } from "react-router-dom";
 import ContactForm from "../../components/modal/contactModal/contactForm";
 
-
 function Main() {
   const [openModal, setOpenModal] = useState(false);
   
@@ -55,7 +54,8 @@ function Main() {
           </div>
           
                 </div>
-                
+              
+              
               </div>
         </div> 
       </div>
