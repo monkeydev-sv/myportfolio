@@ -4,7 +4,7 @@ import code from "../../assets/images/code.png";
 
 import { Link } from "react-router-dom";
 import ContactForm from "../../components/modal/contactModal/contactForm";
-
+import Service from "../service";
 function Main() {
   const [openModal, setOpenModal] = useState(false);
   
@@ -14,11 +14,7 @@ function Main() {
     
       <div className="cont">
         <div class="columns">
-          <div class="column is-half">
-          
-            <img src={code} />
-            
-            </div>
+         
          
 
           <div className="column">
@@ -30,7 +26,8 @@ function Main() {
               nätet.
               <br />
               <br /> Holm Developer gör det enkelt för dig som företag , vi
-              sköter allt från förhandsarbete till slutproduktion.
+              sköter allt från förhandsarbete till slutproduktion.<br/>
+
               <div className="navbar">
                 <div className="navbar-start">
                   <div className="navbar-item">
@@ -55,11 +52,12 @@ function Main() {
           
                 </div>
               
-              
+             
               </div>
         </div> 
       </div>
       </div>
+      <Service/>
     </>
   );
 }

@@ -8,7 +8,8 @@ import "./navbar.css";
 const Navbar = () => {
   const [isActive, setisActive] = React.useState(false);
   return (
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    
+    <nav className="navbar" role="navigation" aria-label="main navigation">
      
 
       <a
@@ -74,6 +75,7 @@ const Navbar = () => {
      
       
     </nav>
+   
   );
 };
 
