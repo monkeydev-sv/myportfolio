@@ -7,6 +7,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import "./navbar.css";
 const Navbar = () => {
   const [isActive, setisActive] = React.useState(false);
+  
   return (
     
     <nav className="navbar" role="navigation" aria-label="main navigation">
@@ -68,7 +69,7 @@ const Navbar = () => {
 
           <div class="navbar-end">
             <div className="navbar-item">
-              <a class="nav_portal">Kundportal</a>
+            
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React, { useState} from "react";
 import "./main.css";
-import code from "../../assets/images/code.png";
+
 
 import { Link } from "react-router-dom";
 import ContactForm from "../../components/modal/contactModal/contactForm";
@@ -37,16 +37,7 @@ function Main() {
                   </Link>
                   </div>
                 </div>
-                </div>
                 
-                <div className="navbar-end">
-                <div className="navbar-item">
-                 <div className="button is-fullwidth">
-                  <Link className="service" to="/service">
-                    Våra tjänster
-                  </Link>
-                  </div>
-                  </div>
                   <ContactForm open={openModal} onClose={() => setOpenModal(false)} /> 
           </div>
           
