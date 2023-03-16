@@ -2,32 +2,17 @@
 .nav{
     margin-top: 20px;
     color:#56aee0;
-    
+    font-size: 20px;
 }
 
 
 .nav:hover{
     color:black;
+    font-weight: 600;
     
-    
+   
 }
-.nav_portal{
-    margin-top: 20px;
-    color:black;
-    
-}
-.nav_portal:hover{
-    color:#56aee0;
-    
-}
-.dark {
-  background-color: #333;
-  color:#fff
-  }
-  .light {
-  background-color: #fff;
-  color: #333;
-  }
+
 
 
 @keyframes barbeat {

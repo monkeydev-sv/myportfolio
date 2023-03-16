@@ -11,23 +11,27 @@ import Popup from "./components/modal/cookie/cookiePopUp";
 import "./App.css";
 
 function App() {
+
   return (
-  <><div className="container">
-      <Router>
-        <Notification />
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/service" element={<Service />} />
-          <Route path="/case" element={<Case />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
 
-        <Footer />
+    <>
+      <div className="container">
+        <Router>
+          <Notification />
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/service" element={<Service />} />
+            <Route path="/case" element={<Case />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
 
-      </Router>
+          <Footer />
 
-    </div><Popup /></>
+        </Router>
+
+      </div>
+    <Popup /></>
   );
 }
 

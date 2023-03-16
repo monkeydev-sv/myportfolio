@@ -73,7 +73,7 @@ img {
 @media screen and (max-width: 650px) {
   .modalContainer {
     flex-direction: column;
-    top: 20%;
+    top: 30%;
     left: 0;
     transform: none;
     width: 100%;
@@ -84,7 +84,7 @@ img {
     color: black;
     font-size: 22px;
     font-weight: 800;
-    top: 22%;
+    top: 32%;
     right: 8px;
   }
 }
